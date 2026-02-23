@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home</title>
+    <!-- fontawesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link rel="stylesheet" href="./assets/css/aos.css" />
+    <!-- google font link -->
+
+    <!-- all css links -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/slick.css" />
+    <link rel="stylesheet" href="./assets/css/slick-theme.css" />
+    <link rel="stylesheet" href="./assets/css/custom.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header-sec">
+      <div class="top_head">
+        <div class="container">
+          <div class="top-head-wrap">
+            <div class="email-sec">
+              <a href="mailto:partnerships@pimdnow.org"
+                ><i class="fa-regular fa-envelope"></i
+                >partnerships@pimdnow.org</a
+              >
+            </div>
+            <div class="socl-sec">
+              <ul class="hdr-socl-menu">
+                <li>
+                  <a href="javascript:void(0)"
+                    ><i class="fa-brands fa-facebook-f"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)"
+                    ><i class="fa-brands fa-google-plus-g"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)"
+                    ><i class="fa-brands fa-twitter"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)"
+                    ><i class="fa-brands fa-youtube"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom_head">
+        <div class="container">
+          <div class="hdr-main">
+            <div class="hdr_logo">
+              <a href="./index.html">
+                <img src="./assets/images/hdr_logo.svg" alt="" srcset="" />
+              </a>
+            </div>
+            <div class="hdr-menu-sec">
+              <div class="menu-sec" id="mySideNav">
+                <div class="close-menu" onclick="closeNav()">
+                  <i class="fa-solid fa-xmark"></i>
+                </div>
+                <ul class="hdr-menu">
+                  <li><a href="./index.html">Home</a></li>
+                  <li class="drop-down"><a href="javascript:void(0)">About PIMD</a>
+                    <ul class="submenu">
+                      <li><a href="./our-history.html">Our History</a>
+                       </li>
+                      <li class="drop-down-side"><a href="javascript:void(0)">Our Team</a>
+                        <ul class="subsidemenu">
+                          <li><a href="./executive-team.html">Executive Team</a></li>
+                          <li><a href="./fellowship.html">Fellowship</a></li>
+                          <li><a href="./advisory-board.html">Advisory Board</a></li>
+                          <li><a href="./ambassadors.html">Ambassadors</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li ><a href="./programms.html">Programs</a></li>
+                  <li><a href="#">Media</a></li>
+                  <li><a href="./publications.html">Publications</a></li>
+                  <li><a href="./contact-us.html">Contacts</a></li>
+                </ul>
+              </div>
+              <div class="search-icon">
+                <a href="javascript:void(0)"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+                <div class="popover__content">
+                  <div class="form-group">
+                    <input name="searchword" id="mod-search-searchword98" maxlength="200" class="form-control" type="search" placeholder="Search ..."> <button class="btn btn-default"><i class="fa fa-search"></i></button> <input type="hidden" name="task" value="search">
+                    <input type="hidden" name="option" value="com_search">
+                    <input type="hidden" name="Itemid" value="101">
+      
+                  </div>
+                </div>
+              </div>
+              <div class="mob-menu" onclick="openNav()">
+                <a href="javascript:void(0)"
+                  ><i class="fa-solid fa-bars"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- banner -->
+    <section
+      class="bnnr-sec"
+      style="background-image: url(./assets/images/home_hro-img.jpg)"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-12 " data-aos="fade-right" data-aos-duration="1800">
+            <div class="bnnr-cntnt title-block text-left">
+              <h1>Pan-African Institute Of Municipal Development (PIMD)</h1>
+              <p>
+                Fortifying the building blocks of local and municipal governance
+              </p>
+              <a href="javascript:void(0)" class="cstm-btn"
+                >Contact Us
+                <span class="rght-arrw"
+                  ><i class="fa-solid fa-arrow-right"></i></span
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- banner-form -->
+    <section class="bnnr-form-sec title-block " data-aos="fade-up" data-aos-duration="1800">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9 col-12">
+            <h2>Get in Touch</h2>
+            <form class="bnnr-form">
+              <div class="input-wrap">
+                <div class="input-child">
+                  <input
+                    type="text"
+                    id="name"
+                    class="form-control"
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="input-child">
+                  <input
+                    type="text"
+                    id="email"
+                    class="form-control"
+                    placeholder="Email"
+                  />
+                </div>
+              </div>
+              <div class="msg-box">
+                <textarea
+                  id="msg"
+                  placeholder="Your Message"
+                  class="form-control"
+                ></textarea>
+              </div>
+              <button type="submit" class="cstm-btn">Send Now</button>
+             </form>
+          </div>
+          <div class="col-md-3 col-12">
+            <div class="form-img">
+              <img src="./assets/images/form-img.png" alt="" srcset="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- what we do -->
+    <section class="what-we-do title-block section-margin" data-aos="fade-up" data-aos-duration="1800" >
+      <div class="container">
+        <div class="row text-center justify-content-center">
+          <div class="col-md-8 col-12">
+            <h2>What We Do</h2>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 d-flex" data-aos="fade-up" data-aos-duration="1800">
+            <div class="do-card">
+              <div class="do-img">
+                <img
+                  src="./assets/images/what-we-do-Img-one.svg"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <div class="do-txt">
+                <h4>Governance & Democracy</h4>
+                <ul>
+                  <li>
+                    Good Governance Practice
+                  </li>
+                  <li>
+                  Good Governance Executive Leadership
+                  </li>
+                  <li>
+                  gov-HERnment
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 d-flex" data-aos="fade-down" data-aos-duration="1800">
+            <div class="do-card">
+              <div class="do-img">
+                <img
+                  src="./assets/images/what-we-do-img-two.svg"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <div class="do-txt">
+                <h4>Executive Leadership</h4>
+                <p>
+                  This program is a comprehensive, hand-on experience with
+                  emphasis on action-oriented and result-driven training.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 d-flex" data-aos="fade-up" data-aos-duration="1800">
+            <div class="do-card">
+              <div class="do-img">
+                <img
+                  src="./assets/images/what-we-do-img-three.svg"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <div class="do-txt">
+                <h4>Diversity, Equity, Inclusion</h4>
+                <p>
+                  This program is a comprehensive, hand-on experience with
+                  emphasis on action-oriented and result-driven training.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 d-flex" data-aos="fade-down" data-aos-duration="1800">
+            <div class="do-card">
+              <div class="do-img">
+                <img
+                  src="./assets/images/what-we-do-img-four.svg"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <div class="do-txt">
+                <h4>Capacity Building</h4>
+                <p>
+                  This program highlights best practices in municipal
+                  leadership, performance management and building a strong
+                  culture of innovation and performance at the local level.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 d-flex" data-aos="fade-up" data-aos-duration="1800">
+            <div class="do-card">
+              <div class="do-img">
+                <img
+                  src="./assets/images/what-we-do-img-five.svg"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <div class="do-txt">
+                <h4>Practicum & Policy Research</h4>
+                <p>
+                  PIMD provides technical assistance on municipal leadership
+                  strategies, public private partnerships and financial
+                  management.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 d-flex" data-aos="fade-down" data-aos-duration="1800">
+            <div class="do-card">
+              <div class="do-img">
+                <img
+                  src="./assets/images/what-we-do-img-six.svg"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <div class="do-txt">
+                <h4>Consulting Services</h4>
+                <p>
+                  This program is a comprehensive, hand-on experience with
+                  emphasis on action-oriented and result-driven training.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about PIMD -->
+    <section class="about-pimd title-block section-margin">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-5" data-aos="fade-right" data-aos-duration="1800">
+            <div class="abt-img">
+               <img src="./assets/images/about-image.jpg" alt="" srcset="">
+            </div>
+          </div>
+          <div class="col-md-7" data-aos="fade-left" data-aos-duration="1800">
+            <div class="abt-txt">
+              <h2>About PIMD</h2>
+              <p>
+                The Pan-African Institute of Municipal Development (PIMD)
+                supports the development of African countries by providing
+                workforce development training, capacity building, and technical
+                assistance to municipal governments. PIMD achieves these
+                missions by leveraging the expertise of our local, national, and
+                international partners to provide platforms and tools to assist
+                municipal managers and in acquiring the advanced training,
+                knowledge, and skills necessary to meet the needs of local
+                communities.
+              </p>
+              <p>
+                The Pan-African Institute of Municipal Development (PIMD)
+                supports the development of African countries by providing
+                workforce development training, capacity building, and technical
+                assistance to municipal governments. PIMD achieves these
+                missions by leveraging the expertise of our local...
+              </p>
+              <a href="javascript:void(0)" class="cstm-btn"
+                >Know More
+                <span class="rght-arrw"
+                  ><i class="fa-solid fa-arrow-right"></i></span
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about us -->
+     <section class="about-us title-block" style="background-image:url(./assets/images/about-img.jpg);">
+        <div class="container">
+           <div class="row ">
+             <div class="col-md-12" data-aos="fade-up" data-aos-duration="1800">
+               <div class="about-us-txt">
+                  <h2>About Us</h2>
+                  <p>The Pan-African Institute of Municipal Development (PIMD) supports the development of African countries by providing workforce development training, capacity building, and technical assistance to municipal governments. PIMD achieves these missions by leveraging the expertise of our local, national, and international partners to provide platforms and tools to assist municipal managers and in acquiring the advanced training, knowledge, and skills necessary to meet the needs of local communities.</p>
+               </div>
+
+             </div>
+           </div>
+
+
+        </div>
+     </section>
+
+     <!-- mission -->
+      <section class="mission title-block section-margin" data-aos="fade-up" data-aos-duration="1800">
+        <div class="container">
+          <div class="row">
+             <div class="col-md-6 col-12 d-flex">
+                <div class="mission-card">
+                   <div class="mission-img">
+                      <img src="./assets/images/mission-icon-one.svg" alt="" srcset="">
+                   </div>
+                    <div class="mission-content">
+                       <h3>Our Mission</h3>
+                        <p>The Pan-African Institute of Municipal Development is committed to supporting African country national development strategies by fortifying the building blocks of municipal and local governance. Our mission is to support municipalities in meeting the needs of the communities they serve and in doing so, promote sustainable local economic development and facilitate Africa’s transformation into a global powerhouse of the 21st…</p>
+                    </div>
+                </div>
+             </div>
+             <div class="col-md-6 col-12 d-flex">
+               <div class="mission-card">
+                  <div class="mission-img">
+                     <img src="./assets/images/mission-icon-two.svg" alt="" srcset="">
+                  </div>
+                   <div class="mission-content">
+                      <h3>Our Visson</h3>
+                       <p>PIMD is committed to supporting African countries’, national development strategies by fortifying the building blocks of municipal and local governance. Our mission is to support municipalities in meeting the needs of the communities they serve and in doing so, promote sustainable local economic development and facilitate Africa’s transformation into a global powerhouse of the 21st Century.</p>
+                   </div>
+               </div>
+             </div>
+          </div>
+        </div>
+      </section>
+
+      <!--peerImg-->
+      <section class="peerImg">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12" data-aos="fade-up" data-aos-duration="1800">
+                  <div class="peer-img-sec">
+                     <img src="./assets/images/peer-img.jpg" alt="" srcset="">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+       <!-- peercontent -->
+        <section class="peerContent title-block section-margin">
+            <div class="container">
+               <div class="peer-wrap" data-aos="fade-up" data-aos-duration="1800">
+                  <div class="row" >
+                     <div class="col-md-4 col-sm-6 d-flex">
+                        <div class="peer-lft">
+                           <img src="./assets/images/peer-img-lft.png" alt="" srcset="">
+                        </div>
+                     </div>
+                      <div class="col-md-8 col-sm-6 d-flex">
+                         <div class="peer-right">
+                            <h3>Peer-to-Peer Exchanges</h3>
+                             <p>Our Good Governance programs feature opportunities for peer-to-peer exchange and collaboration on best practices and innovative ideas. This photo features Brandon Scott, Mayor of the City of Baltimore, with the PIMD Mayoral cohort from Senegal in 2022 during a visit to the City of Baltimore.</p>
+                         </div>
+                      </div>
+                  </div>
+               </div>
+
+            </div>
+        </section>
+        
+
+        <!-- testimonial -->
+         <section class="testimonial title-block section-margin">
+            <div class="container">
+               <div class="row align-items-center justify-content-between">
+                  <div class="col-md-7 col-12" data-aos="fade-right" data-aos-duration="1800">
+                     <h2>Testimonials</h2>
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the</p>
+                  </div>
+                  <div class="col-md-2 col-12" data-aos="fade-left" data-aos-duration="1800">
+                     <a href="javascript:void(0)" class="cstm-btn">View All
+                        <span class="rght-arrw"><svg class="svg-inline--fa fa-arrow-right" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path></svg></span></a>
+                  </div>
+               </div>
+                <div class="testimonial_tab_sec">
+                  <div class="tab_links">
+                    <button class="tablinks" onclick="openTab(event, 'firstTab')" id="defaultOpen">
+                       <div class="testimonial_img">
+                         <img src="./assets/images/testimonial-img-one.jpg" alt="" srcset="">
+                       </div>
+                         <div class="testimonial_txt">
+                           <h5>Isabelle Bully-Omictin</h5>
+                           <p>Managing Director, Global Engagement, ICMA</p>
+                         </div>
+                    </button>
+                    <button class="tablinks" onclick="openTab(event, 'secondTab')">
+                      <div class="testimonial_img">
+                        <img src="./assets/images/testimonial-img-two.jpg" alt="" srcset="">
+                      </div>
+                        <div class="testimonial_txt">
+                          <h5>Dr. Janette Yarwood</h5>
+                          <p>Director of the Office of International
+                            Affairs, Yale University</p>
+                        </div>
+                    </button>
+                    <button class="tablinks" onclick="openTab(event, 'thirdTab')">
+                      <div class="testimonial_img">
+                        <img src="./assets/images/testimonial-img-three.jpg" alt="" srcset="">
+                      </div>
+                        <div class="testimonial_txt">
+                          <h5>Laurent Lubulu</h5>
+                          <p>Cultural Attaché, U.S. Embassy
+                            in Senegal</p>
+                        </div>
+                    </button>
+                  </div>
+                    <div class="tab_content">
+                      <div id="firstTab" class="tabcontent" data-aos="fade-left" data-aos-duration="1800">
+                        
+                        <p>I am particularly pleased that the U.S. Embassy, through the Public Diplomacy Section, can support PIMD programs to strengthen human capital and good governance. Congratulations to PIMD – you did a fantastic job, and we are all impressed by your professionalism.
+                        </p>
+
+                        <ul class="review-sec">
+                          <li><a class="fullstar" href="javascript:void(0)"><i class="fa-solid fa-star"></i></a></li>
+                          <li><a class="fullstar" href="javascript:void(0)"><i class="fa-solid fa-star"></i></a></li>
+                          <li><a class="fullstar" href="javascript:void(0)"><i class="fa-solid fa-star"></i></a></li>
+                          <li><a class="fullstar" href="javascript:void(0)"><i class="fa-solid fa-star"></i></a></li>
+                          <li><a class="emptystar" href="javascript:void(0)"><i class="fa-regular fa-star"></i></a></li>
+                          
+                        </ul>
+                      </div>
+                      
+                      <div id="secondTab" class="tabcontent" data-aos="fade-left" data-aos-duration="1800">
+                        <p>I am particularly pleased that the U.S. Embassy, through the Public Diplomacy Section, .
+                        </p>
+
+                        <ul class="review-sec">
+                          <li><a class="fullstar" href="javascript:void(0)"><i class="fa-solid fa-star"></i></a></li>
+                          <li><a class="fullstar" href="javascript:void(0)"><i class="fa-solid fa-star"></i></a></li>
+                          <li><a class="fullstar" href="javascript:void(0)"><i class="fa-solid fa-star"></i></a></li>
+                          <li><a class="fullstar" href="javascript:void(0)"><i class="fa-solid fa-star"></i></a></li>
+                          <li><a class="emptystar" href="javascript:void(0)"><i class="fa-regular fa-star"></i></a></li>
+                          
+                        </ul>
+                      </div>
+                      
+                      <div id="thirdTab" class="tabcontent" data-aos="fade-left" data-aos-duration="1800">
+                        <p>I am particularly pleased that the U.S. Embassy, through the Public Diplomacy Section, .
+                        </p>
+
+                        <ul class="review-sec">
+                          <li><a class="fullstar" href="javascript:void(0)"><i class="fa-solid fa-star"></i></a></li>
+                          <li><a class="fullstar" href="javascript:void(0)"><i class="fa-solid fa-star"></i></a></li>
+                          <li><a class="fullstar" href="javascript:void(0)"><i class="fa-solid fa-star"></i></a></li>
+                          <li><a class="fullstar" href="javascript:void(0)"><i class="fa-solid fa-star"></i></a></li>
+                          <li><a class="emptystar" href="javascript:void(0)"><i class="fa-regular fa-star"></i></a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+        <!-- partners -->
+         <section class="our-partners title-block ">
+             <div class="container-fluid">
+                <div class="row justify-content-center text-center">
+                   <div class="col-md-8" data-aos="fade-up" data-aos-duration="1800">
+                      <div class="partner-head">
+                         <h2>Our Partners</h2>
+                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the</p>
+                      </div>
+                   </div>
+                   <div class="partner-slider">
+                      <div class="partner-item">
+                         <div class="partner-img">
+                            <img src="./assets/images/partner-logo-img-one.png" alt="" srcset="">
+                         </div>
+                      </div>
+                      <div class="partner-item">
+                        <div class="partner-img">
+                           <img src="./assets/images/partner-logo-img-two.png" alt="" srcset="">
+                        </div>
+                     </div>
+                     <div class="partner-item">
+                        <div class="partner-img">
+                           <img src="./assets/images/partner-logo-img-three.png" alt="" srcset="">
+                        </div>
+                     </div>
+                     <div class="partner-item">
+                        <div class="partner-img">
+                           <img src="./assets/images/partner-logo-img-four.png" alt="" srcset="">
+                        </div>
+                     </div>
+                     <div class="partner-item">
+                        <div class="partner-img">
+                           <img src="./assets/images/partner-logo-five.png" alt="" srcset="">
+                        </div>
+                     </div>
+                     <div class="partner-item">
+                        <div class="partner-img">
+                           <img src="./assets/images/partner-logo-img-six.png" alt="" srcset="">
+                        </div>
+                     </div>
+                     <div class="partner-item">
+                        <div class="partner-img">
+                           <img src="./assets/images/partner-logo-img-one.png" alt="" srcset="">
+                        </div>
+                     </div>
+                   </div>
+                </div>
+             </div>
+         </section>
+
+         <!-- footer -->
+              <footer class="footer-sec">
+                   <div class="container">
+                       <div class="top-ftr">
+                        <div class="row flex-column align-items-center">
+                           <div class="col-md-2">
+                           
+                             <div class="ftr-logo">
+                                <img src="./assets/images/ftr-logo.svg" alt="" srcset="">
+                             </div>
+                           </div>
+                             <div class="col-md-8">
+                                <div class="ftr-menu">
+                                   <ul>
+                                     <li class="active"><a href="./index.html">Home</a></li>
+                                     <li><a href="javascript:void(0)">About PIMD</a></li>
+                                     <li><a href="javascript:void(0)">Programs</a></li>
+                                     <li><a href="javascript:void(0)">Media</a></li>
+                                     <li><a href="javascript:void(0)">Publications</a></li>
+                                     <li><a href="javascript:void(0)">Testimonials</a></li>
+                                     <li><a href="javascript:void(0)">Contacts </a></li>
+                                   </ul>
+                                </div>
+                             </div>
+                             <div class="col-md-2">
+                              <div class="ftr-email-socl-wrap">
+                                 <div class="ftr-email-sec">
+                                    <a href="mailto:partnerships@pimdnow.org"><svg class="svg-inline--fa fa-envelope" aria-hidden="true" focusable="false" data-prefix="far" data-icon="envelope" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M64 112c-8.8 0-16 7.2-16 16l0 22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1l0-22.1c0-8.8-7.2-16-16-16L64 112zM48 212.2L48 384c0 8.8 7.2 16 16 16l384 0c8.8 0 16-7.2 16-16l0-171.8L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64l384 0c35.3 0 64 28.7 64 64l0 256c0 35.3-28.7 64-64 64L64 448c-35.3 0-64-28.7-64-64L0 128z"></path></svg><!-- <i class="fa-regular fa-envelope"></i> Font Awesome fontawesome.com -->partnerships@pimdnow.org</a>
+                                 </div>
+                                 <div class="socl-sec">
+                                    <ul class="ftr-socl-menu">
+                                      <li>
+                                        <a href="javascript:void(0)"><svg class="svg-inline--fa fa-facebook-f" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"></path></svg><!-- <i class="fa-brands fa-facebook-f"></i> Font Awesome fontawesome.com --></a>
+                                      </li>
+                                      <li>
+                                        <a href="javascript:void(0)"><svg class="svg-inline--fa fa-google-plus-g" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="google-plus-g" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M386.061 228.496c1.834 9.692 3.143 19.384 3.143 31.956C389.204 370.205 315.599 448 204.8 448c-106.084 0-192-85.915-192-192s85.916-192 192-192c51.864 0 95.083 18.859 128.611 50.292l-52.126 50.03c-14.145-13.621-39.028-29.599-76.485-29.599-65.484 0-118.92 54.221-118.92 121.277 0 67.056 53.436 121.277 118.92 121.277 75.961 0 104.513-54.745 108.965-82.773H204.8v-66.009h181.261zm185.406 6.437V179.2h-56.001v55.733h-55.733v56.001h55.733v55.733h56.001v-55.733H627.2v-56.001h-55.733z"></path></svg><!-- <i class="fa-brands fa-google-plus-g"></i> Font Awesome fontawesome.com --></a>
+                                      </li>
+                                      <li>
+                                        <a href="javascript:void(0)"><svg class="svg-inline--fa fa-twitter" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg><!-- <i class="fa-brands fa-twitter"></i> Font Awesome fontawesome.com --></a>
+                                      </li>
+                                      <li>
+                                        <a href="javascript:void(0)"><svg class="svg-inline--fa fa-youtube" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg><!-- <i class="fa-brands fa-youtube"></i> Font Awesome fontawesome.com --></a>
+                                      </li>
+                                      <li>
+                                        <a href="javascript:void(0)"><svg class="svg-inline--fa fa-instagram" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg><!-- <i class="fa-brands fa-instagram"></i> Font Awesome fontawesome.com --></a>
+                                      </li>
+                                    </ul>
+                                  </div>
+                              </div>
+
+                             </div>
+                        </div>
+                           
+                      </div>
+                       <div class="btm-ftr title-block text-center">
+                          <p>© 2024 PIMD. All rights reserved.</p>
+                       </div>
+                   </div>
+              </footer>
+
+
+    <script src="./assets/js/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+    <script src="./assets/js/aos.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/custom.js"></script>
+  </body>
+</html>
